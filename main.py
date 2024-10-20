@@ -1,7 +1,7 @@
 import aiohttp
 import asyncio
 
-webhook_url = 'YOUR_DISCORD_WEBHOOK_URL_HERE'  # Replace with your actual webhook URL
+webhook_url = 'https://discord.com/api/webhooks/1284318444485087345/Mt-HLHyKhjnNIJ5y2xEqrhIG2RXBk3jTg-8tOk-etrKqMQrK2aGQAxH4Yvq7WKgG_V0k'  # Replace with your actual webhook URL
 
 async def get_ip_address_from_discord_id(discord_id: str) -> str:
     """
